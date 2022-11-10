@@ -222,7 +222,7 @@ export class MainPage extends React.Component<
 						/>
 					</Flex>
 				)}
-				{this.state.isFlashing && this.state.featuredProjectURL && (
+				{this.state.isFlashing && false && (
 					<SafeWebview
 						src={this.state.featuredProjectURL}
 						onWebviewShow={(isWebviewShowing: boolean) => {
